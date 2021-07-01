@@ -9,3 +9,7 @@
 
 product = Product.new( {name:"mug", price: 2, description: "to drink", image_url: "nil"})
 product.save
+
+product = Product.new( {name:"cup", price: 0, description: "to get drunk", image_url: "none"})
+product.save
+
